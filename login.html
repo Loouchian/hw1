@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
+        <link rel="stylesheet" href="/css/style.css">
+    </head>
+    <body>
+      <h1 id="title">Accedi al tuo corso!</h1>
+        <form method="post" action="/php/login.php">
+            <h1>Login</h1>
+
+            <input type="text" id="username" placeholder="Username" name="username" required>
+            <input type="password" id="password" placeholder="Password" name="password" required>
+            <button type="submit" name="login">Accedi</button>
+            <input type="button" onclick="location.href='register.php';" value="Se non l'hai fatto Registrati!" />
+
+        </form>
+        <a id="home" href="mhw1.php" class="button">Torna alla home!</a>
+    </body>
+</html>
